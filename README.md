@@ -1,6 +1,6 @@
 # Front End
 
-This is a basic front end made with next.js withc 3 pages :
+## This is a basic front end made with next.js withc 3 pages :
 
 Login Page : That verifies the user for the entry to dashboard.
 
