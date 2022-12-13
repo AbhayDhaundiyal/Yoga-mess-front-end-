@@ -1,0 +1,17 @@
+{
+"login" : {
+        "credentials" : {
+                          "data": {
+                                  "userName": "aonealtair+qa40@gmail.com",
+                                  "password": "Autotest@123"
+                                  },
+                          "provider": "solidthinking"
+                          },
+        "appliance_login_end_point" : "/api/auth/login"
+          },
+
+"appliance_id_api":{
+                    "endpoint":"/search/search?isLegacy=false"
+                   },
+"token":"jt4D79tfA5IsthFbBfrB"
+}

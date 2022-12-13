@@ -1,0 +1,16 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/api/auth": "pages/api/auth.js",
+  "/api/insert": "pages/api/insert.js",
+  "/api/remove": "pages/api/remove.js",
+  "/api/update": "pages/api/update.js",
+  "/dashboard": "pages/dashboard.html",
+  "/": "pages/index.html",
+  "/login": "pages/login.html",
+  "/register": "pages/register.html",
+  "/renew": "pages/renew.html",
+  "/route": "pages/route.html",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}

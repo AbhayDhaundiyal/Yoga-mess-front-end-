@@ -1,0 +1,149 @@
+.div{
+  background-color: rgb(185, 232, 228);
+}
+body {
+  /* background-color: rgb(50, 157, 148); */
+  margin: 0;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+}
+h1{
+  margin: 50px auto 0 auto;
+  font-family: 'The Nautigal', cursive;
+  font-size: 3.5rem;
+  padding-top: 10px;
+  color: rgb(99, 128, 99);
+  line-height: 50%;
+}
+h2{
+  color: rgb(99, 128, 99);
+}
+h3{
+  color: rgb(99, 128, 99);
+}
+.top_para{
+  color: rgb(99, 128, 99);
+  font-family: 'Share Tech Mono', monospace;
+  font-stretch: expanded;
+  font-size: 2.5rem;
+  font-weight: normal;
+
+}
+p{
+  font-family: 'Roboto Slab', serif;
+}
+.img{
+  height: 20%;
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+.img1{
+  height: 30%;
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+  margin-top: 0;
+}
+.profile{
+  margin-top: 50px;
+  padding: 20px;
+}
+.profileimg{
+  height: 10%;
+  width: 10%;
+}
+.top-container{
+  position: relative;
+  padding-top: 100px;
+  background-color: rgb(176, 250, 219);
+}
+.skill-row{
+  /* border: solid; */
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+}
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.button {
+	display: inline-block;
+	padding: .75rem 1.25rem;
+	border-radius: 10rem;
+  border: 0;
+	color: rgb(99, 128, 99);
+	text-transform: uppercase;
+	font-size: 1rem;
+	letter-spacing: .15rem;
+	transition: all .3s;
+	position: relative;
+	/* overflow: hidden; */
+	z-index: 1;
+	/* {&}:after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: $color;
+		border-radius: 10rem;
+		z-index: -2;
+	}
+	&:before {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 0%;
+		height: 100%;
+		background-color: darken($color, 15%);
+		transition: all .3s;
+		border-radius: 10rem;
+		z-index: -1;
+	}
+	&:hover {
+		color: #fff;
+		&:before {
+			width: 100%;
+		} */
+	/* } */
+}
+.form__group {
+  border-radius: 10rem;
+  position: relative;
+  padding: 10px 0 0;
+  margin-top: 10px;
+  width: 50%;
+  color: aquamarine;
+}
+
+.form__field {
+  font-family: inherit;
+  /* width: 100%; */
+  border: 0;
+  border-bottom: 2px solid rgb(99, 128, 99);
+  outline: 0;
+  font-size: 1.3rem;
+  color: rgb(99, 128, 99);
+  padding: 7px 0;
+  transition: border-color 0.2s;
+}
+
+.form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: rgb(99, 128, 99);
+}
