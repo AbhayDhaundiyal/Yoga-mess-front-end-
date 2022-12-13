@@ -15,7 +15,7 @@ export default async function handler(req, resp) {
         })
       }
       // sending credentials to backend server for authentication
-    var res =  fetch('http://127.0.0.1:8080/forms/userLogin/',dataparam);
+    var res =  fetch('https://kenkaneki124.pythonanywhere.com/forms/userLogin/',dataparam);
     var data;
     var statusCode = await res.then(async res=>
                       {

@@ -34,11 +34,6 @@ const Register = (props) => {
         {
             if(password === verifypass)
             {
-                // console.log("Done\n")
-                // console.log(email)
-                // console.log(password)
-                // console.log(name)
-                // console.log(DOB.toLocaleDateString('en-GB'))
                 const dataparam = {
                     method: 'POST',
                     headers: {
@@ -51,7 +46,7 @@ const Register = (props) => {
                         "DOB" : `${DOB.toLocaleDateString('en-GB')}`
                     })
                   }
-                var res = fetch('http://127.0.0.1:8080/forms/userSignup/',dataparam)
+                var res = fetch('https://kenkaneki124.pythonanywhere.com/forms/userSignup/',dataparam)
                 var data
                 var status = await res.then(async res =>
                 {
@@ -70,7 +65,7 @@ const Register = (props) => {
                     router.push('/login')
             }
             else
-                setErrorMessages({ name: "uname", message: errors.message });
+                setErrorMessages({ name: "uname", message: "Passwords Don't Match" });
         }
         else
             setErrorMessages({ name: "uname", message: errors.message });

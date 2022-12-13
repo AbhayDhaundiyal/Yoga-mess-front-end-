@@ -40,12 +40,13 @@ const Renew = (props) => {
         })
     }
     // console.log(dataparam.body)
-    var res = fetch('http://127.0.0.1:8080/forms/userUpdate/',dataparam)
+    var res = fetch('https://kenkaneki124.pythonanywhere.com/forms/userUpdate/',dataparam)
     var data
     var status = await res.then(async res=>
     {
         if(res.status==200)
         {
+            SetBatch(val)
             data = await res.json()
             return true;
         }
